@@ -1,0 +1,67 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Tiro+Bangla&display=swap'); */
+
+* {
+    font-family: 'Kalpurush', 'SiyamRupali';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.hotline i {
+    border: 1px solid #fff;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 1px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.nav-link {
+    color: #fff;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.admission-img {
+    background-color: black;
+}
+
+.admission-img img {
+    opacity: .4;
+}
