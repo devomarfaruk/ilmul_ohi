@@ -56,7 +56,7 @@ html {
     color: #001731;
 }
 
-.slider {
+/* .slider {
     height: 100vh;
     width: 100%;
 }
@@ -64,7 +64,7 @@ html {
 .slider img {
     height: 100%;
     width: 100%;
-}
+} */
 
 .nav-link:hover::after {
     width: 100%;
@@ -127,4 +127,10 @@ p {
 
 footer {
     color: #fff;
+}
+
+@media all and(max-width: 759px) {
+    .admission-title {
+        font-size: 20px;
+    }
 }
