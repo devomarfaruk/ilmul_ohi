@@ -2,6 +2,16 @@
 
 * {
     font-family: 'Kalpurush', 'SiyamRupali';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #001731;
+}
+
+main {
+    color: #001731;
 }
 
 html {
@@ -27,7 +37,7 @@ html {
 }
 
 .nav-link {
-    color: #fff;
+    color: #001731;
     position: relative;
 }
 
@@ -38,12 +48,22 @@ html {
     bottom: 0;
     width: 0%;
     height: 3px;
-    background-color: #fff;
+    background-color: #001731;
     transition: .5s;
 }
 
 .nav-link:hover {
-    color: #fff;
+    color: #001731;
+}
+
+.slider {
+    height: 100vh;
+    width: 100%;
+}
+
+.slider img {
+    height: 100%;
+    width: 100%;
 }
 
 .nav-link:hover::after {
@@ -66,11 +86,17 @@ p {
     opacity: .4;
 }
 
+.course-btn {
+    background-color: #001731;
+    color: #fff;
+}
+
 /* admission html form */
 
 .admission {
     background-color: #9CF6FE;
     overflow: hidden;
+    background-image: url(../img/addmission-bg.webp);
 
 }
 
@@ -78,11 +104,27 @@ p {
     width: 70%;
     margin: auto;
     padding: 50px 30px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.658);
     margin: 50px auto;
 }
 
 .form input {
     border: 0;
     border-bottom: 1px solid #7e7e7e;
+}
+
+.form-admission h1 {
+    color: #001731;
+}
+
+.form-admission p {
+    color: #001731;
+}
+
+.form-admission label {
+    color: #001731;
+}
+
+footer {
+    color: #fff;
 }
