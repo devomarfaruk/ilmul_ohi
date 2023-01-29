@@ -65,3 +65,24 @@ p {
 .admission-img img {
     opacity: .4;
 }
+
+/* admission html form */
+
+.admission {
+    background-color: #9CF6FE;
+    overflow: hidden;
+
+}
+
+.form-admission {
+    width: 70%;
+    margin: auto;
+    padding: 50px 30px;
+    background-color: #fff;
+    margin: 50px auto;
+}
+
+.form input {
+    border: 0;
+    border-bottom: 1px solid #7e7e7e;
+}
