@@ -129,14 +129,26 @@ footer {
     color: #fff;
 }
 
-.footer-img {
-    height: 200px;
-}
-
 .footer-img img {
     height: 100%;
 }
 
+.footer-img {
+    height: 300px;
+}
+
 .header {
     margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .addmission-content p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .footer-img {
+        height: 150px;
+        width: 100%;
+    }
 }
