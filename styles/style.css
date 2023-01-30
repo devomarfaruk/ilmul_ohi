@@ -129,8 +129,14 @@ footer {
     color: #fff;
 }
 
-@media all and(max-width: 759px) {
-    .admission-title {
-        font-size: 20px;
-    }
+.footer-img {
+    height: 200px;
+}
+
+.footer-img img {
+    height: 100%;
+}
+
+.header {
+    margin-top: 100px;
 }
